@@ -37,7 +37,7 @@ const Projects = () => {
                             <a className='website-link' href='http://165.227.31.155:5678/#/'>Visit Website</a>  
                             <a className='github-icon' href='https://github.com/youngchang8660/real-estate-project' /> 
                         </div>
-                        <p className='project-description'>This is the real estate website with simple smooth design with filtering function that shorten search cycle times.</p> 
+                        <p className='project-description'>This is the real estate website with simple smooth design with filtering function that shorten search cycle times. Try Salt Lake City</p> 
                     </div>
                     
                 </div>

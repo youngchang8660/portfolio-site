@@ -49,6 +49,11 @@
 
 .profiles-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f3f3f4;
+    height: 300px;
 }
 
 .github-profile {

@@ -26,7 +26,7 @@ const Projects = () => {
                             <a className='website-link' href='http://165.227.31.155:3567/#/'>Visit Website</a>  
                             <a className='github-icon' href='https://github.com/youngchang8660/ramen-restaurant' />   
                         </div>  
-                        <p className='project-description'>Ramen restaurant in Tokyo. Used Google Map API to display the location of the restaurant on the map. Users can make a reservation by selecting number of group, time, and date</p>   
+                        <p className='project-description'>A single page restaurant website for helping customers find the menu and location and make a reservation.</p>   
                     </div>
                 </div>
                 <div className='project-three'>
@@ -37,7 +37,7 @@ const Projects = () => {
                             <a className='website-link' href='http://165.227.31.155:5678/#/'>Visit Website</a>  
                             <a className='github-icon' href='https://github.com/youngchang8660/real-estate-project' /> 
                         </div>
-                        <p className='project-description'>This is the real estate website that allows users to search for homes in specific zip code and city.</p> 
+                        <p className='project-description'>This is the real estate website with simple smooth design with filtering function that shorten search cycle times.</p> 
                     </div>
                     
                 </div>

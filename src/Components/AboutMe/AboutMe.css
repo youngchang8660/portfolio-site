@@ -1,0 +1,135 @@
+.about-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* background-color:#12161c; */
+    background-color: #121610;
+    margin-top: -100px;
+}
+
+.about-me-container {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 200px;
+    border: 1px solid none;
+    /* color: white; */
+    color: white;
+}
+
+.about-me-container-one, .about-me-container-two {
+    width: 50%;
+    border: 1px solid none;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.about-me-container-two {
+    font-weight: 600;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid none;
+    /* border-top: 2px solid white; */
+    border-top: 2px solid white;
+    width: 60%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.skills {
+    color: white;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+@media (max-width:1020px) {
+    .skills {
+        font-size: 15px;
+    }
+    .about-intro {
+        font-size: 25px;
+    }
+    .about-description {
+        font-size: 18px;
+    }
+    .about-me-container {
+        width: 80%;
+    }
+    .skills-container {
+        width: 80%;
+    }
+}
+
+@media (max-width:705px) {
+    .about-me-container {
+        width: 80%;
+    }
+    .skills-container {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .skills {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 650px) {
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 150vh;
+        border: 1px solid none;
+        /* color: white; */
+        color: white;
+    }
+    .about-me-container-one, .about-me-container-two {
+        width: 90%;
+        border: 1px solid none;
+        font-size: 20px;
+        margin: 20px;
+    }
+    .about-me-container-one {
+        margin-top: 100px;
+    }
+    .about-intro {
+        font-size: 35px;
+    }
+    .about-description {
+        font-size: 23px;
+    }
+    .skills-container {
+        display: flex;
+        /* justify-content: center; */
+        border: 1px solid none;
+        border-top: 2px solid white;
+        width: 80%;
+        margin-bottom: 400px;
+    }
+    
+    .skills {
+        color: white;
+        margin-left: 5px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 376px) {
+    .about-me-container {
+        margin-top: 400px;
+    }
+    .about-intro {
+        font-size: 25px;
+    }
+    .about-description {
+        font-size: 18px;
+    }
+}

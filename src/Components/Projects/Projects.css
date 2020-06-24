@@ -20,7 +20,7 @@
     align-items: center;
 }
 
-.project-one, .project-two, .project-three {
+.project-one, .project-two, .project-three, .project-four {
     display: flex;
     justify-content: space-between;
     border: 1px solid none;
@@ -60,6 +60,15 @@
 
 .real-estate-image {
     background-image: url('https://github.com/youngchang8660/portfolio-site/blob/master/real-estate.jpeg?raw=true');
+    width: 670px;
+    height: 350px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.chart-maker-image {
+    background-image: url('https://github.com/youngchang8660/portfolio-site/blob/master/chartMaker.jpeg?raw=true');
     width: 670px;
     height: 350px;
     background-position: center center;

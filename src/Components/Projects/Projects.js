@@ -41,7 +41,7 @@ const Projects = () => {
                     </div> 
                 </div>
                 <div className='project-four'>
-                    <div className='chart-maker'></div>
+                    <div className='chart-maker-image'></div>
                     <div className='name-and-link'>
                         <h2>Chart Maker</h2>
                         <div className='website-and-github'>

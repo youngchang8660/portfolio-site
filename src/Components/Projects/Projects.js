@@ -38,8 +38,18 @@ const Projects = () => {
                             <a className='github-icon' href='https://github.com/youngchang8660/real-estate-project' /> 
                         </div>
                         <p className='project-description'>This is the real estate website with simple smooth design with filtering function that shorten search cycle times. Try Salt Lake City</p> 
-                    </div>
-                    
+                    </div> 
+                </div>
+                <div className='project-four'>
+                    <div className='chart-maker'></div>
+                    <div className='name-and-link'>
+                        <h2>Chart Maker</h2>
+                        <div className='website-and-github'>
+                            <a className='website-link' href='https://reverent-poitras-6c414b.netlify.app/#/'>Visit Website</a>  
+                            <a className='github-icon' href='https://github.com/youngchang8660/chart' /> 
+                        </div>
+                        <p className='project-description'>This is the chart maker.</p> 
+                    </div> 
                 </div>
             </div>
         </div>
